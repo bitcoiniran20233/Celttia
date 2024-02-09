@@ -106,7 +106,7 @@ celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
 ---------------------------------------------------
 
 celestia-appd config chain-id $CELESTIA_CHAIN
-celestia-appd config keyring-backend test
+celestia-app
 
 -------------------------------------------------------
 tee $HOME/celestia-appd.service > /dev/null <<EOF
